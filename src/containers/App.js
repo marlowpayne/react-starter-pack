@@ -1,4 +1,4 @@
-import Hello from "../visuals/Hello";
+import Hello from "./Hello";
 
 const App = (props) => (
   <div className="App">

@@ -2,6 +2,6 @@ import styled from "styled-components";
 
 const StyledHello = styled.h1``;
 
-const Hello = () => <StyledHello>Hello World!</StyledHello>;
+const Hello = ({ name }) => <StyledHello>Hello {name}!</StyledHello>;
 
 export default Hello;
