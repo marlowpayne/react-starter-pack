@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import Hello from "./Hello";
+import Hello from "./HelloContainer";
 
 test("renders Hello text", () => {
   render(<Hello />);
